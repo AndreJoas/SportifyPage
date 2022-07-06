@@ -1,0 +1,439 @@
+body{
+    background: black;
+    color: white;
+}
+
+.superior{
+    width: 65rem;
+    height: 12rem;
+    margin-left: 13rem;
+    background: linear-gradient(180deg, rgba(171, 31, 31, 0) 16.43%, #1e1717 55.8%);
+}
+.cantora{
+    width: 65rem;
+    height: 16rem;
+    margin-top: -2rem;
+}
+.supersuperior{
+    position: absolute;
+    margin-top: -14rem;
+    display: flex;
+    gap: 2rem;
+}
+.imp{
+    width: 13rem;
+    height: 1.6rem;
+    border-radius: 3rem;
+    outline: none;
+    border: none;
+}
+.traços{
+    margin-left: -1rem;
+    margin-top: -3rem;
+   
+}
+.procura{
+    height: 1.3rem;
+    margin-top: 1rem;;
+}
+.lupa{
+    position: absolute;
+    margin-left: 11.87rem ;
+    margin-top: 0.2rem;
+}
+.artis{
+    display: flex;
+    gap: 1rem;
+    font-size: 0.8rem;
+    margin-top: -11.6rem;
+    margin-left: 4rem;
+}
+.perfil{
+    display: flex;
+    margin-left: 54rem;
+    margin-top: -5rem;
+    gap: 1rem;
+}
+
+.sessao{
+    width: 8em;
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 0.9rem;
+    color: white;
+}
+.eun{
+    margin-top: 3.6rem;
+    margin-left: 2.5rem;
+    font-size: 4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.botoes{
+    display: flex;
+    gap: 1rem;
+    margin-top: -2.3rem;
+    margin-left: 2.7rem;
+}
+.bugren1{
+    width: 8rem;
+    height: 2rem;
+    font-size: 1.1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(7, 98, 7 );
+    border: none;
+    outline: none;
+    border-radius: 3rem;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.bugren1:hover{
+     background: #0dbb47;
+ 
+}
+.bugren2{
+    width: 8rem;
+    height: 1.8rem;
+    height: 2rem;
+    background: transparent ;
+    outline: none;
+    border-radius: 3rem;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+    border-color: white;
+    font-size: 1.1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.bugren3{
+    height: 2rem;
+    width: 2.4rem;
+    background: transparent;
+    outline: none;
+    border-radius: 9rem;
+    color: white;
+    transition: 0.5s;
+    border-color: white;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: 0.9s;
+}
+.bugren3:hover{
+    transform: rotate(180deg);
+}
+
+.menu{
+    list-style: none;
+    float: left;
+    width: 36rem;
+    margin-left: 16.5rem;
+    margin-top: -12rem;
+    align-items: flex;
+    color: white;
+    display: flex;
+    gap: 1rem;
+}
+.menu li{
+    position: relative;
+    float: left;
+    color: white;
+    transition: 0.2s;
+    
+}
+.menu li a{
+    color:white;
+    text-decoration: none;
+    padding: 15px 20px;
+    font-family: sans-serif;
+    
+    
+}
+
+.menu li:hover{
+    text-shadow: 0px 0px 32px #231e1c;
+    border-bottom:  #0dbb47 solid 3px;
+}
+
+
+
+.menuLateral1{
+    width: 10rem;
+    margin-top:-11rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.5rem;
+}
+.cate{
+    cursor: pointer;
+    transition: 0.5s;
+}
+.cate:hover{
+    color:rgb(236, 156, 236)
+}
+.home{
+    display: flex;
+    height: 3.4rem;
+}
+.icon1{
+    margin-top:1rem;
+    margin-left: 0.7rem;
+    background: transparent;
+    width:2rem;
+    height:2rem;
+    cursor: pointer;
+    transition: 0.6s;
+    border-radius: 0.8rem;
+    
+}
+.icon1:hover{
+    background: #0dbb47;
+    transform: rotate(360deg);
+}
+.frase1{
+    margin-left: 1rem;
+    margin-top: 1.2rem;
+    width: 7rem;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.frase1:hover{
+    color:#0dbb47;
+}
+.casa{
+    margin-top: 0.3rem;
+    margin-left: 0.35rem;
+    width: 1.2rem;
+    height: 1.2rem;
+    cursor: pointer;
+}
+
+.brow{
+    margin-top: 0.3rem;
+    margin-left: 0.35rem;
+    width: 1.2rem;
+    height: 1.2rem;
+    cursor: pointer;
+}
+.rad{
+    margin-top: 0.3rem;
+    margin-left: 0.35rem;
+    width: 1.2rem;
+    height: 1.2rem;
+    cursor: pointer;
+}
+
+
+.menuLateral2{
+    width: 10rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    height: 25rem;
+    height: 20rem;
+}
+.frase2{
+    cursor: pointer;
+    transition: 0.5s;
+    margin-top: -0.1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.frase2:hover{
+    color:#0dbb47;
+}
+.frase22{
+    cursor: pointer;
+    transition: 0.5s;
+    margin-top: 0.1rem;
+    margin-left: 1.4rem;
+}
+.frase22:hover{
+    color:#0dbb47;
+}
+
+.menuLateral3{
+    width: 10rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    height: 25rem;
+    height: 20rem;
+}
+.frase3{
+    cursor: pointer;
+    transition: 0.5s;
+    margin-top: -0.1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.frase3:hover{
+    color:#0dbb47;
+}
+.frase33{
+    cursor: pointer;
+    transition: 0.5s;
+    margin-top: 0.1rem;
+    margin-left: 1.4rem;
+}
+.frase33:hover{
+    color:#0dbb47;
+}
+.release{
+    display: flex;
+    flex-direction: column;
+    margin-top: -35.3rem;
+    margin-left: 14rem;
+    width: 20rem;
+    height: 9rem;
+}
+.subt{
+    margin-top: -0.1rem;
+    font-size: 1.4rem;
+}
+.abac{
+    width: 9rem;
+    height: 7rem;
+    margin-top: -0.6rem;
+    margin-left: -0.9rem;
+}
+.alb{
+    margin-left: 8rem;
+    margin-top: -3rem;
+}
+.numb{
+    margin-left: 8rem;
+    margin-top: -1rem;
+}
+.popular{
+    display: flex;
+    flex-direction: column;
+    width: 45rem;
+    height: 16rem;
+    margin-top: 2rem;
+    margin-left: 13rem;
+}
+.pol{
+    font-size: 1.4rem;
+    margin-left: 1rem;
+    margin-top: -0.5rem;
+}
+.pop1{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+}
+.abac1{
+    width: 3rem;
+    height: 3rem;
+    margin-top: -0.6rem;
+    margin-left: 0.9rem;
+}
+.number{
+    margin-left: -3rem;
+}
+.corac{
+    margin-left: -2.5rem;
+}
+.frase4{
+    margin-left: -2.5rem;
+}
+.views{
+    margin-left: 14rem;
+}
+.fas{
+    display: flex;
+    flex-direction: column;
+    margin-left: 59rem;
+    margin-top: -27rem;
+    position: absolute;
+    width: 14rem;
+}
+.s{
+    font-size: 1.4rem;
+    margin-left: 1rem;
+    margin-top: -0.5rem;
+    transition: 0.4s;
+}
+.s:hover{
+    color:#0dbb47;
+}
+.f1{
+    display: flex;
+    margin-top: 0.2rem;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+.frase5{
+    margin-left: 2rem;
+    transition: 0.6s;
+    cursor: pointer;
+}
+.frase5:hover{
+        color:#0dbb47;
+}
+.friendy{
+    display: flex;
+    flex-direction: column;
+    margin-left: 78.4rem;
+    gap: 2rem;
+    margin-top: -42rem;
+    position: absolute;
+    width: 18rem;
+    height: 30rem;
+}
+.fan1{
+    display: flex;
+    flex-direction: column;
+    width: 12rem;
+    margin-top: 0.4rem;
+    width: 14rem;
+    height: 7rem;
+}
+.frind{
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-top: 1.1rem;
+    cursor: pointer;
+    transition: 0.6s;
+}
+.frind:hover{
+    transform: rotate(360deg);
+}
+.frase6{
+    margin-left: 4rem;
+   font-size: 0.9rem;
+   margin-top: -4rem;
+   width: 4.9rem;
+}
+.frase7{
+    margin-left: 4rem;
+    font-size: 0.7rem;
+    margin-top: -1rem;
+    width: 4.9rem;
+}
+.frase8{
+    margin-left: 4rem;
+    font-size: 0.7rem;
+    margin-top: -1rem;
+    width: 6rem;
+
+}
+.music{
+    color: white;
+    width: 2rem;
+    height: 2rem;
+    margin-top: -1rem;
+    margin-left: 3.5rem;
+    transition: 0.6s;
+    cursor: pointer;
+}
+.music:hover{
+    transform: rotate(360deg);
+}
+.frase9{
+    margin-left: 6rem;
+    font-size: 0.7rem;
+    margin-top:-1.3rem;
+    width: 6rem;
+}
